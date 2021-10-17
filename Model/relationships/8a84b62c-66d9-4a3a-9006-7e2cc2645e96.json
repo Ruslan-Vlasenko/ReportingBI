@@ -1,0 +1,7 @@
+{
+  "name": "8a84b62c-66d9-4a3a-9006-7e2cc2645e96",
+  "fromTable": "FactCurrencyRate",
+  "fromColumn": "DateKey",
+  "toTable": "DimDate",
+  "toColumn": "DateKey"
+}

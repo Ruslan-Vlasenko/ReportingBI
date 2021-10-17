@@ -1,0 +1,8 @@
+{
+  "name": "LocalDateTable_ea1b8d68-e3a7-48fc-980b-b02990916f5c-5859c40c-1ccb-40d3-85ad-7e87ca18975c",
+  "mode": "import",
+  "source": {
+    "type": "calculated",
+    "expression": "Calendar(Date(Year(MIN('FactResellerSales'[OrderDate])), 1, 1), Date(Year(MAX('FactResellerSales'[OrderDate])), 12, 31))"
+  }
+}

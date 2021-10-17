@@ -1,0 +1,8 @@
+{
+  "name": "594e98d5-2e2d-4028-b90f-a7f699de9a61",
+  "fromTable": "FactInternetSales",
+  "fromColumn": "ShipDateKey",
+  "toTable": "DimDate",
+  "toColumn": "DateKey",
+  "isActive": false
+}

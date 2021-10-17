@@ -1,0 +1,14 @@
+{
+  "name": "DimOrganization-e4a4f692-74e6-479a-a088-ac9ecdbfb792",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = Sql.Database(\"5CD110DG39\", \"AdventureWorksDW2019\"),",
+      "    dbo_DimOrganization = Source{[Schema=\"dbo\",Item=\"DimOrganization\"]}[Data]",
+      "in",
+      "    dbo_DimOrganization"
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "7b995f7b-08ff-4b38-be4e-a8757ee6dfcd",
+  "fromTable": "FactSurveyResponse",
+  "fromColumn": "DateKey",
+  "toTable": "DimDate",
+  "toColumn": "DateKey"
+}

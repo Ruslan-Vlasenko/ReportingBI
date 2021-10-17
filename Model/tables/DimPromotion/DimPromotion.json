@@ -1,0 +1,8 @@
+{
+  "name": "DimPromotion",
+  "annotations": [
+    {
+      "name": "PBI_DescriptionAtRefresh"
+    }
+  ]
+}

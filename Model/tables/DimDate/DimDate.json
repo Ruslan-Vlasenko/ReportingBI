@@ -1,0 +1,8 @@
+{
+  "name": "DimDate",
+  "annotations": [
+    {
+      "name": "PBI_DescriptionAtRefresh"
+    }
+  ]
+}

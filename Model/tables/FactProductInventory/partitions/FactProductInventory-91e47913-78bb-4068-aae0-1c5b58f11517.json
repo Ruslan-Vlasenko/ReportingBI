@@ -1,0 +1,14 @@
+{
+  "name": "FactProductInventory-91e47913-78bb-4068-aae0-1c5b58f11517",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = Sql.Database(\"5CD110DG39\", \"AdventureWorksDW2019\"),",
+      "    dbo_FactProductInventory = Source{[Schema=\"dbo\",Item=\"FactProductInventory\"]}[Data]",
+      "in",
+      "    dbo_FactProductInventory"
+    ]
+  }
+}

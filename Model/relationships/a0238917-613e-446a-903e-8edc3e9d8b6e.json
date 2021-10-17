@@ -1,0 +1,7 @@
+{
+  "name": "a0238917-613e-446a-903e-8edc3e9d8b6e",
+  "fromTable": "FactInternetSales",
+  "fromColumn": "DueDateKey",
+  "toTable": "DimDate",
+  "toColumn": "DateKey"
+}

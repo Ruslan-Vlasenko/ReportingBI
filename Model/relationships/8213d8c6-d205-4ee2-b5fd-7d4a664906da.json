@@ -1,0 +1,7 @@
+{
+  "name": "8213d8c6-d205-4ee2-b5fd-7d4a664906da",
+  "fromTable": "DimReseller",
+  "fromColumn": "GeographyKey",
+  "toTable": "DimGeography",
+  "toColumn": "GeographyKey"
+}

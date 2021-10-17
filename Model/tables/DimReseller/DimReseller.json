@@ -1,0 +1,8 @@
+{
+  "name": "DimReseller",
+  "annotations": [
+    {
+      "name": "PBI_DescriptionAtRefresh"
+    }
+  ]
+}

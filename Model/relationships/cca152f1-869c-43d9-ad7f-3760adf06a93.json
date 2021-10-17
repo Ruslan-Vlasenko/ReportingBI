@@ -1,0 +1,8 @@
+{
+  "name": "cca152f1-869c-43d9-ad7f-3760adf06a93",
+  "fromTable": "FactCurrencyRate",
+  "fromColumn": "Date",
+  "toTable": "LocalDateTable_63545764-c091-4caa-9195-d5146e6f31e8",
+  "toColumn": "Date",
+  "joinOnDateBehavior": "datePartOnly"
+}

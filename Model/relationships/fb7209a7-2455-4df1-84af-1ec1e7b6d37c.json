@@ -1,0 +1,7 @@
+{
+  "name": "fb7209a7-2455-4df1-84af-1ec1e7b6d37c",
+  "fromTable": "FactProductInventory",
+  "fromColumn": "DateKey",
+  "toTable": "DimDate",
+  "toColumn": "DateKey"
+}

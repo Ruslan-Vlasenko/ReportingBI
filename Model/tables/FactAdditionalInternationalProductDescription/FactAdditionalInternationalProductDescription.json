@@ -1,0 +1,8 @@
+{
+  "name": "FactAdditionalInternationalProductDescription",
+  "annotations": [
+    {
+      "name": "PBI_DescriptionAtRefresh"
+    }
+  ]
+}

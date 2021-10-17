@@ -1,0 +1,8 @@
+{
+  "name": "DimAccount",
+  "annotations": [
+    {
+      "name": "PBI_DescriptionAtRefresh"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "FactInternetSalesReason-e06c64d9-592a-409f-a6b7-b04e57e2173c",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = Sql.Database(\"5CD110DG39\", \"AdventureWorksDW2019\"),",
+      "    dbo_FactInternetSalesReason = Source{[Schema=\"dbo\",Item=\"FactInternetSalesReason\"]}[Data]",
+      "in",
+      "    dbo_FactInternetSalesReason"
+    ]
+  }
+}

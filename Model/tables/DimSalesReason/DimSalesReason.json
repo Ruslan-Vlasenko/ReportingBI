@@ -1,0 +1,8 @@
+{
+  "name": "DimSalesReason",
+  "annotations": [
+    {
+      "name": "PBI_DescriptionAtRefresh"
+    }
+  ]
+}

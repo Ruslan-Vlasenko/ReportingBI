@@ -1,0 +1,8 @@
+{
+  "name": "DimEmployee",
+  "annotations": [
+    {
+      "name": "PBI_DescriptionAtRefresh"
+    }
+  ]
+}

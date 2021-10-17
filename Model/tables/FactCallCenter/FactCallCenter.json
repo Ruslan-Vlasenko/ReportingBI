@@ -1,0 +1,8 @@
+{
+  "name": "FactCallCenter",
+  "annotations": [
+    {
+      "name": "PBI_DescriptionAtRefresh"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "DimOrganization",
+  "annotations": [
+    {
+      "name": "PBI_DescriptionAtRefresh"
+    }
+  ]
+}

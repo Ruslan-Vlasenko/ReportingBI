@@ -1,0 +1,8 @@
+{
+  "name": "LocalDateTable_670caec7-9a7f-4dc9-9890-5126f35a1b07-6ddc98bc-dc89-4107-b2e7-367d5b3a98c7",
+  "mode": "import",
+  "source": {
+    "type": "calculated",
+    "expression": "Calendar(Date(Year(MIN('FactSalesQuota'[Date])), 1, 1), Date(Year(MAX('FactSalesQuota'[Date])), 12, 31))"
+  }
+}
