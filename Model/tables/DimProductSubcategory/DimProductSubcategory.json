@@ -1,0 +1,8 @@
+{
+  "name": "DimProductSubcategory",
+  "annotations": [
+    {
+      "name": "PBI_DescriptionAtRefresh"
+    }
+  ]
+}

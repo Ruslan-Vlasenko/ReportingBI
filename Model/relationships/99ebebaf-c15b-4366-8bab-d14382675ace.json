@@ -1,0 +1,7 @@
+{
+  "name": "99ebebaf-c15b-4366-8bab-d14382675ace",
+  "fromTable": "FactResellerSales",
+  "fromColumn": "CurrencyKey",
+  "toTable": "DimCurrency",
+  "toColumn": "CurrencyKey"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "FactFinance-db132b24-b7e0-4221-8678-d214a8443757",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = Sql.Database(\"5CD110DG39\", \"AdventureWorksDW2019\"),",
+      "    dbo_FactFinance = Source{[Schema=\"dbo\",Item=\"FactFinance\"]}[Data]",
+      "in",
+      "    dbo_FactFinance"
+    ]
+  }
+}

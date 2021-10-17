@@ -1,0 +1,8 @@
+{
+  "name": "FactCurrencyRate",
+  "annotations": [
+    {
+      "name": "PBI_DescriptionAtRefresh"
+    }
+  ]
+}

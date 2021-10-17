@@ -1,0 +1,8 @@
+{
+  "name": "e2448b20-a1a5-4a0a-97ee-ba9c1eaa6284",
+  "fromTable": "FactProductInventory",
+  "fromColumn": "MovementDate",
+  "toTable": "LocalDateTable_f49549d6-68e6-4dcc-8400-53bdb48f9f54",
+  "toColumn": "Date",
+  "joinOnDateBehavior": "datePartOnly"
+}

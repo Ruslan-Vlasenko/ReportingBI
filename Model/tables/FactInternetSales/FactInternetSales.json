@@ -1,0 +1,8 @@
+{
+  "name": "FactInternetSales",
+  "annotations": [
+    {
+      "name": "PBI_DescriptionAtRefresh"
+    }
+  ]
+}

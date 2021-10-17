@@ -1,0 +1,7 @@
+{
+  "name": "ce90a7c7-3cad-4afb-b585-2502baa47200",
+  "fromTable": "FactInternetSalesReason",
+  "fromColumn": "SalesReasonKey",
+  "toTable": "DimSalesReason",
+  "toColumn": "SalesReasonKey"
+}

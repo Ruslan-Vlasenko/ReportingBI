@@ -1,0 +1,7 @@
+{
+  "name": "75b8c953-0513-4dea-9ed5-962336c741d8",
+  "fromTable": "FactFinance",
+  "fromColumn": "OrganizationKey",
+  "toTable": "DimOrganization",
+  "toColumn": "OrganizationKey"
+}

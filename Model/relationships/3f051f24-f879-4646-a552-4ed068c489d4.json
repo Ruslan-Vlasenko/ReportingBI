@@ -1,0 +1,8 @@
+{
+  "name": "3f051f24-f879-4646-a552-4ed068c489d4",
+  "fromTable": "DimDate",
+  "fromColumn": "FullDateAlternateKey",
+  "toTable": "LocalDateTable_c9cbc357-5733-47ba-91a8-fd4fa3b42728",
+  "toColumn": "Date",
+  "joinOnDateBehavior": "datePartOnly"
+}

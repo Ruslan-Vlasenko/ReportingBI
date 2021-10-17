@@ -1,0 +1,14 @@
+{
+  "name": "DimScenario-ae5abd8d-5448-4a72-b109-effa23dfb845",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = Sql.Database(\"5CD110DG39\", \"AdventureWorksDW2019\"),",
+      "    dbo_DimScenario = Source{[Schema=\"dbo\",Item=\"DimScenario\"]}[Data]",
+      "in",
+      "    dbo_DimScenario"
+    ]
+  }
+}

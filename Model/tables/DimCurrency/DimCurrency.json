@@ -1,0 +1,8 @@
+{
+  "name": "DimCurrency",
+  "annotations": [
+    {
+      "name": "PBI_DescriptionAtRefresh"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "EnglishPromotionType",
+  "dataType": "string",
+  "sourceColumn": "EnglishPromotionType",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "Format",
+      "value": "<Format Format=\"Text\" />"
+    },
+    {
+      "name": "DataTypeAtRefresh",
+      "value": "String#####not a type"
+    },
+    {
+      "name": "PBI_NameAtRefresh",
+      "value": "EnglishPromotionType"
+    },
+    {
+      "name": "PBI_WasHiddenAtRefresh",
+      "value": "False"
+    }
+  ]
+}

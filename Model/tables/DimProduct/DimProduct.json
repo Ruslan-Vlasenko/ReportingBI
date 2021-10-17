@@ -1,0 +1,8 @@
+{
+  "name": "DimProduct",
+  "annotations": [
+    {
+      "name": "PBI_DescriptionAtRefresh"
+    }
+  ]
+}

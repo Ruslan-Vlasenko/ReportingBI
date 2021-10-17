@@ -1,0 +1,7 @@
+{
+  "name": "cdc8589f-0865-4a9d-89ab-978a58d04b38",
+  "fromTable": "DimEmployee",
+  "fromColumn": "SalesTerritoryKey",
+  "toTable": "DimSalesTerritory",
+  "toColumn": "SalesTerritoryKey"
+}

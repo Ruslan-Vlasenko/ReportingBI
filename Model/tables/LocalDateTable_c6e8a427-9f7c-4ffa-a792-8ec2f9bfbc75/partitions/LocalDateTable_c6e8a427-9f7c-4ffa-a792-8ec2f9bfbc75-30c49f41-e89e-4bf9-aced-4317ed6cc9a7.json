@@ -1,0 +1,8 @@
+{
+  "name": "LocalDateTable_c6e8a427-9f7c-4ffa-a792-8ec2f9bfbc75-30c49f41-e89e-4bf9-aced-4317ed6cc9a7",
+  "mode": "import",
+  "source": {
+    "type": "calculated",
+    "expression": "Calendar(Date(Year(MIN('FactInternetSales'[DueDate])), 1, 1), Date(Year(MAX('FactInternetSales'[DueDate])), 12, 31))"
+  }
+}

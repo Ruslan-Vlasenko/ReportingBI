@@ -1,0 +1,7 @@
+{
+  "name": "f003fdf2-4c14-4395-a64f-9770311d440c",
+  "fromTable": "FactFinance",
+  "fromColumn": "DateKey",
+  "toTable": "DimDate",
+  "toColumn": "DateKey"
+}

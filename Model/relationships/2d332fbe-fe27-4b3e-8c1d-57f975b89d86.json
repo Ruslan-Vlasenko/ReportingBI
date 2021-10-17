@@ -1,0 +1,8 @@
+{
+  "name": "2d332fbe-fe27-4b3e-8c1d-57f975b89d86",
+  "fromTable": "DimEmployee",
+  "fromColumn": "HireDate",
+  "toTable": "LocalDateTable_03b54179-16ac-49b9-b033-c8d5bec1f55b",
+  "toColumn": "Date",
+  "joinOnDateBehavior": "datePartOnly"
+}

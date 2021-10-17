@@ -1,0 +1,8 @@
+{
+  "name": "FactProductInventory",
+  "annotations": [
+    {
+      "name": "PBI_DescriptionAtRefresh"
+    }
+  ]
+}

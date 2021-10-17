@@ -1,0 +1,14 @@
+{
+  "name": "DimSalesTerritory-7dd67232-c63a-4084-8eef-f86269a38349",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = Sql.Database(\"5CD110DG39\", \"AdventureWorksDW2019\"),",
+      "    dbo_DimSalesTerritory = Source{[Schema=\"dbo\",Item=\"DimSalesTerritory\"]}[Data]",
+      "in",
+      "    dbo_DimSalesTerritory"
+    ]
+  }
+}

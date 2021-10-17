@@ -1,0 +1,7 @@
+{
+  "name": "67c04c86-a7e3-4637-b16e-7de908eadae2",
+  "fromTable": "DimGeography",
+  "fromColumn": "SalesTerritoryKey",
+  "toTable": "DimSalesTerritory",
+  "toColumn": "SalesTerritoryKey"
+}
