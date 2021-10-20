@@ -1,0 +1,14 @@
+{
+  "name": "DimProduct-723033bb-de17-49f3-85c8-c2374882d90a",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = Sql.Database(\"5CD110DG39\", \"AdventureWorksDW2019\"),",
+      "    dbo_DimProduct = Source{[Schema=\"dbo\",Item=\"DimProduct\"]}[Data]",
+      "in",
+      "    dbo_DimProduct"
+    ]
+  }
+}

@@ -1,8 +1,0 @@
-{
-  "name": "4f724206-4cdf-4283-8682-867f1b3cf3cb",
-  "fromTable": "FactInternetSales",
-  "fromColumn": "SalesTerritoryKey",
-  "toTable": "DimSalesTerritory",
-  "toColumn": "SalesTerritoryKey",
-  "isActive": false
-}

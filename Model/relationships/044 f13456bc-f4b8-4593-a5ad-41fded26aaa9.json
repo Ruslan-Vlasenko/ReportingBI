@@ -1,0 +1,7 @@
+{
+  "name": "f13456bc-f4b8-4593-a5ad-41fded26aaa9",
+  "fromTable": "FactResellerSales",
+  "fromColumn": "EmployeeKey",
+  "toTable": "DimEmployee",
+  "toColumn": "EmployeeKey"
+}

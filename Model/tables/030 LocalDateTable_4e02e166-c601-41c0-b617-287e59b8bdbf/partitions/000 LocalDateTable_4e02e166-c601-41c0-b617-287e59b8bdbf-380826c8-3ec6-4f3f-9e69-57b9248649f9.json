@@ -1,0 +1,8 @@
+{
+  "name": "LocalDateTable_4e02e166-c601-41c0-b617-287e59b8bdbf-380826c8-3ec6-4f3f-9e69-57b9248649f9",
+  "mode": "import",
+  "source": {
+    "type": "calculated",
+    "expression": "Calendar(Date(Year(MIN('FactCallCenter'[Date])), 1, 1), Date(Year(MAX('FactCallCenter'[Date])), 12, 31))"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "DimDepartmentGroup-2f4b74f3-e815-49e1-a16b-5903db972faf",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = Sql.Database(\"5CD110DG39\", \"AdventureWorksDW2019\"),",
+      "    dbo_DimDepartmentGroup = Source{[Schema=\"dbo\",Item=\"DimDepartmentGroup\"]}[Data]",
+      "in",
+      "    dbo_DimDepartmentGroup"
+    ]
+  }
+}

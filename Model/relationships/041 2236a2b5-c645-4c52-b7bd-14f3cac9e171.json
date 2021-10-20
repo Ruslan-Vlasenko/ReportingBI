@@ -1,7 +1,0 @@
-{
-  "name": "2236a2b5-c645-4c52-b7bd-14f3cac9e171",
-  "fromTable": "FactInternetSales",
-  "fromColumn": "CurrencyKey",
-  "toTable": "DimCurrency",
-  "toColumn": "CurrencyKey"
-}

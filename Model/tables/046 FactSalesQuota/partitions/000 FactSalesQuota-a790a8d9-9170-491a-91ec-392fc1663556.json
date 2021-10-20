@@ -1,0 +1,14 @@
+{
+  "name": "FactSalesQuota-a790a8d9-9170-491a-91ec-392fc1663556",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = Sql.Database(\"5CD110DG39\", \"AdventureWorksDW2019\"),",
+      "    dbo_FactSalesQuota = Source{[Schema=\"dbo\",Item=\"FactSalesQuota\"]}[Data]",
+      "in",
+      "    dbo_FactSalesQuota"
+    ]
+  }
+}

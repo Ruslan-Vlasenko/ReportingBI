@@ -1,8 +1,0 @@
-{
-  "name": "049914c7-78df-4649-82d2-82c0a413a809",
-  "fromTable": "FactInternetSales",
-  "fromColumn": "DueDate",
-  "toTable": "LocalDateTable_c6e8a427-9f7c-4ffa-a792-8ec2f9bfbc75",
-  "toColumn": "Date",
-  "joinOnDateBehavior": "datePartOnly"
-}

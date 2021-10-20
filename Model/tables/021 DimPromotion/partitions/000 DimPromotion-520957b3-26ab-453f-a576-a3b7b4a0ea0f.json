@@ -1,0 +1,14 @@
+{
+  "name": "DimPromotion-520957b3-26ab-453f-a576-a3b7b4a0ea0f",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = Sql.Database(\"5CD110DG39\", \"AdventureWorksDW2019\"),",
+      "    dbo_DimPromotion = Source{[Schema=\"dbo\",Item=\"DimPromotion\"]}[Data]",
+      "in",
+      "    dbo_DimPromotion"
+    ]
+  }
+}

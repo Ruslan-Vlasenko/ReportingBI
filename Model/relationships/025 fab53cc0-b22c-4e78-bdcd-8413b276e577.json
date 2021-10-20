@@ -1,7 +1,0 @@
-{
-  "name": "fab53cc0-b22c-4e78-bdcd-8413b276e577",
-  "fromTable": "FactInternetSales",
-  "fromColumn": "CustomerKey",
-  "toTable": "DimCustomer",
-  "toColumn": "CustomerKey"
-}

@@ -1,0 +1,8 @@
+{
+  "name": "f8655d0e-49cd-4346-a5e6-4225d472d32d",
+  "fromTable": "DimCustomer",
+  "fromColumn": "DateFirstPurchase",
+  "toTable": "LocalDateTable_43e291e2-455f-490f-826c-bb4d1f351c63",
+  "toColumn": "Date",
+  "joinOnDateBehavior": "datePartOnly"
+}

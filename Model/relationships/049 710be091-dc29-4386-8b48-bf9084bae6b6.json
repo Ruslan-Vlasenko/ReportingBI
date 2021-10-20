@@ -1,0 +1,7 @@
+{
+  "name": "710be091-dc29-4386-8b48-bf9084bae6b6",
+  "fromTable": "FactFinance",
+  "fromColumn": "DepartmentGroupKey",
+  "toTable": "DimDepartmentGroup",
+  "toColumn": "DepartmentGroupKey"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "7784c739-8f9f-4b51-ac13-ed3b7d10e424",
+  "fromTable": "FactResellerSales",
+  "fromColumn": "ResellerKey",
+  "toTable": "DimReseller",
+  "toColumn": "ResellerKey",
+  "isActive": false
+}

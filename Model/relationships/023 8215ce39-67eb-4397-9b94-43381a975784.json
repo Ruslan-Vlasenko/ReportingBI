@@ -1,0 +1,7 @@
+{
+  "name": "8215ce39-67eb-4397-9b94-43381a975784",
+  "fromTable": "FactFinance",
+  "fromColumn": "AccountKey",
+  "toTable": "DimAccount",
+  "toColumn": "AccountKey"
+}

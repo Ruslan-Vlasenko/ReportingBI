@@ -1,0 +1,8 @@
+{
+  "name": "d9eaa961-8a6c-47b7-9d9c-6b9bdf4184a3",
+  "fromTable": "FactInternetSales",
+  "fromColumn": "OrderDateKey",
+  "toTable": "DimDate",
+  "toColumn": "DateKey",
+  "isActive": false
+}

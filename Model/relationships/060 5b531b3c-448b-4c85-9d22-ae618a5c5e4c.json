@@ -1,0 +1,8 @@
+{
+  "name": "5b531b3c-448b-4c85-9d22-ae618a5c5e4c",
+  "fromTable": "FactResellerSales",
+  "fromColumn": "SalesTerritoryKey",
+  "toTable": "DimSalesTerritory",
+  "toColumn": "SalesTerritoryKey",
+  "isActive": false
+}

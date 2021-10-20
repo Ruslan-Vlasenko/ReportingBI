@@ -7,9 +7,9 @@
   "variations": [
     {
       "name": "Variation",
-      "relationship": "cee8eb50-7961-454f-9a69-7ad648feb733",
+      "relationship": "9c7d0ea8-1608-499e-a743-2614f0f5f038",
       "defaultHierarchy": {
-        "table": "LocalDateTable_9b548e3c-4d44-4e61-9c28-3f0a8f09ac44",
+        "table": "LocalDateTable_082261b2-0dd5-4d55-9211-a70e248174d2",
         "hierarchy": "Date Hierarchy"
       },
       "isDefault": true

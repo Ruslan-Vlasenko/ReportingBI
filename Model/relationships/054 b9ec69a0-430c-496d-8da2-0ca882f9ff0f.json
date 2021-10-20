@@ -1,7 +1,0 @@
-{
-  "name": "b9ec69a0-430c-496d-8da2-0ca882f9ff0f",
-  "fromTable": "DimProductSubcategory",
-  "fromColumn": "ProductCategoryKey",
-  "toTable": "DimProductCategory",
-  "toColumn": "ProductCategoryKey"
-}

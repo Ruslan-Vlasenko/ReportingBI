@@ -1,0 +1,8 @@
+{
+  "name": "c57f0669-743d-4ef5-ba84-22e0711814b3",
+  "fromTable": "FactSalesQuota",
+  "fromColumn": "Date",
+  "toTable": "LocalDateTable_ce023d3c-a813-44cf-979d-fe1c1c066c04",
+  "toColumn": "Date",
+  "joinOnDateBehavior": "datePartOnly"
+}

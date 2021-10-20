@@ -1,8 +1,0 @@
-{
-  "name": "390c3e57-c82a-4897-aa0d-fe790e9afdda",
-  "fromTable": "DimCustomer",
-  "fromColumn": "BirthDate",
-  "toTable": "LocalDateTable_fcde990d-2d81-45a5-8606-70d1caa45185",
-  "toColumn": "Date",
-  "joinOnDateBehavior": "datePartOnly"
-}

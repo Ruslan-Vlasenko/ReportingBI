@@ -1,0 +1,14 @@
+{
+  "name": "DimSalesReason-7c590c89-0b08-4407-a9b3-4b1841dc8f76",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = Sql.Database(\"5CD110DG39\", \"AdventureWorksDW2019\"),",
+      "    dbo_DimSalesReason = Source{[Schema=\"dbo\",Item=\"DimSalesReason\"]}[Data]",
+      "in",
+      "    dbo_DimSalesReason"
+    ]
+  }
+}
