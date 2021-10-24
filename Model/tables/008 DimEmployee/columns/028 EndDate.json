@@ -1,0 +1,44 @@
+{
+  "name": "EndDate",
+  "dataType": "dateTime",
+  "sourceColumn": "EndDate",
+  "formatString": "Long Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "33e887d9-c16f-4f4a-a058-3b488a93dd5c",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_57610538-cb79-4cd9-aece-c1e843c1b85e",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    },
+    {
+      "name": "Format",
+      "value": "<Format Format=\"DateTimeGeneralPattern\"><DateTimes><DateTime LCID=\"1033\" Group=\"LongDate\" FormatString=\"D\" /></DateTimes></Format>"
+    },
+    {
+      "name": "DataTypeAtRefresh",
+      "value": "DateTime#####Date"
+    },
+    {
+      "name": "PBI_NameAtRefresh",
+      "value": "EndDate"
+    },
+    {
+      "name": "PBI_WasHiddenAtRefresh",
+      "value": "False"
+    }
+  ]
+}

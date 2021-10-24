@@ -1,0 +1,40 @@
+{
+  "name": "ShipDate",
+  "dataType": "dateTime",
+  "sourceColumn": "ShipDate",
+  "formatString": "General Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "03514b96-3142-41d4-81e9-efb382b3b792",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_03eb7c9a-50f0-443c-9f66-b826bb731c2d",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "Format",
+      "value": "<Format Format=\"DateTimeGeneralPattern\"><DateTimes><DateTime LCID=\"1033\" Group=\"GeneralDateTimeLong\" FormatString=\"G\" /></DateTimes></Format>"
+    },
+    {
+      "name": "DataTypeAtRefresh",
+      "value": "DateTime#####not a type"
+    },
+    {
+      "name": "PBI_NameAtRefresh",
+      "value": "ShipDate"
+    },
+    {
+      "name": "PBI_WasHiddenAtRefresh",
+      "value": "False"
+    }
+  ]
+}

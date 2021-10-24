@@ -1,0 +1,8 @@
+{
+  "name": "d5b7206c-e270-4d62-b9ae-370c8168bef0",
+  "fromTable": "FactResellerSales",
+  "fromColumn": "ShipDateKey",
+  "toTable": "DimDate",
+  "toColumn": "DateKey",
+  "isActive": false
+}

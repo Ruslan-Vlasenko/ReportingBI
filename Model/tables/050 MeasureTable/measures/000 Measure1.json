@@ -1,0 +1,11 @@
+{
+  "name": "Measure1",
+  "expression": "111",
+  "formatString": "0",
+  "annotations": [
+    {
+      "name": "Format",
+      "value": "<Format Format=\"NumberWhole\" Accuracy=\"0\" />"
+    }
+  ]
+}

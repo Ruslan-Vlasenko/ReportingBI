@@ -1,0 +1,8 @@
+{
+  "name": "ee261489-db94-45eb-900c-e06d438335e2",
+  "fromTable": "FactResellerSales",
+  "fromColumn": "DueDate",
+  "toTable": "LocalDateTable_b3613555-6207-4aad-9e7b-2f092d2fd07b",
+  "toColumn": "Date",
+  "joinOnDateBehavior": "datePartOnly"
+}

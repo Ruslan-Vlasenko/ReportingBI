@@ -1,0 +1,40 @@
+{
+  "name": "StartDate",
+  "dataType": "dateTime",
+  "sourceColumn": "StartDate",
+  "formatString": "General Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "44ed6650-bdd5-4075-9a52-ac5265e1999f",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_3f76ae96-ddd4-40b3-b10f-e020304e4701",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "Format",
+      "value": "<Format Format=\"DateTimeGeneralPattern\"><DateTimes><DateTime LCID=\"1033\" Group=\"GeneralDateTimeLong\" FormatString=\"G\" /></DateTimes></Format>"
+    },
+    {
+      "name": "DataTypeAtRefresh",
+      "value": "DateTime#####not a type"
+    },
+    {
+      "name": "PBI_NameAtRefresh",
+      "value": "StartDate"
+    },
+    {
+      "name": "PBI_WasHiddenAtRefresh",
+      "value": "False"
+    }
+  ]
+}

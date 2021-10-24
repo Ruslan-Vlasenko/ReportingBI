@@ -1,0 +1,14 @@
+{
+  "name": "DimCurrency-49073da6-1233-4465-9caa-c1422e8bdf87",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = Sql.Database(\"5CD110DG39\", \"AdventureWorksDW2019\"),",
+      "    dbo_DimCurrency = Source{[Schema=\"dbo\",Item=\"DimCurrency\"]}[Data]",
+      "in",
+      "    dbo_DimCurrency"
+    ]
+  }
+}

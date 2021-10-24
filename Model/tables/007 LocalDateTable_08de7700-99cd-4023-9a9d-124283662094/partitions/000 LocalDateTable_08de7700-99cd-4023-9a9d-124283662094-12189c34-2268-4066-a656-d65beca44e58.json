@@ -1,0 +1,8 @@
+{
+  "name": "LocalDateTable_08de7700-99cd-4023-9a9d-124283662094-12189c34-2268-4066-a656-d65beca44e58",
+  "mode": "import",
+  "source": {
+    "type": "calculated",
+    "expression": "Calendar(Date(Year(MIN('DimDate'[FullDateAlternateKey])), 1, 1), Date(Year(MAX('DimDate'[FullDateAlternateKey])), 12, 31))"
+  }
+}

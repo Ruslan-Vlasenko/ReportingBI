@@ -1,8 +1,0 @@
-{
-  "name": "86e33026-7a1b-4f17-ac3c-87c905560821",
-  "fromTable": "FactSurveyResponse",
-  "fromColumn": "Date",
-  "toTable": "LocalDateTable_17909422-4918-40cd-ab7f-933b08cd8a58",
-  "toColumn": "Date",
-  "joinOnDateBehavior": "datePartOnly"
-}

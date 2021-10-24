@@ -1,7 +1,0 @@
-{
-  "name": "5ac4017e-84d4-40c2-8e53-cfd6b7ac183d",
-  "fromTable": "FactSalesQuota",
-  "fromColumn": "DateKey",
-  "toTable": "DimDate",
-  "toColumn": "DateKey"
-}

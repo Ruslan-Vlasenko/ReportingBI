@@ -1,0 +1,8 @@
+{
+  "name": "a298c44d-327e-4f49-b092-c62e7b9bb9eb",
+  "fromTable": "FactCallCenter",
+  "fromColumn": "Date",
+  "toTable": "LocalDateTable_4e02e166-c601-41c0-b617-287e59b8bdbf",
+  "toColumn": "Date",
+  "joinOnDateBehavior": "datePartOnly"
+}

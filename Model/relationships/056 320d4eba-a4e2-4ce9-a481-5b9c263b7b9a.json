@@ -1,0 +1,7 @@
+{
+  "name": "320d4eba-a4e2-4ce9-a481-5b9c263b7b9a",
+  "fromTable": "FactResellerSales",
+  "fromColumn": "PromotionKey",
+  "toTable": "DimPromotion",
+  "toColumn": "PromotionKey"
+}

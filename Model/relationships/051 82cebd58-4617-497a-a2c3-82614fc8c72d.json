@@ -1,0 +1,7 @@
+{
+  "name": "82cebd58-4617-497a-a2c3-82614fc8c72d",
+  "fromTable": "FactInternetSales",
+  "fromColumn": "ProductKey",
+  "toTable": "DimProduct",
+  "toColumn": "ProductKey"
+}

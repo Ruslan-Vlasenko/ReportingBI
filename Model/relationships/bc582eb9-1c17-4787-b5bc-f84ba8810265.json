@@ -1,7 +1,0 @@
-{
-  "name": "bc582eb9-1c17-4787-b5bc-f84ba8810265",
-  "fromTable": "FactSurveyResponse",
-  "fromColumn": "CustomerKey",
-  "toTable": "DimCustomer",
-  "toColumn": "CustomerKey"
-}

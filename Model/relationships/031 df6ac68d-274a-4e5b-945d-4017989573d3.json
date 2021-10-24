@@ -1,0 +1,7 @@
+{
+  "name": "df6ac68d-274a-4e5b-945d-4017989573d3",
+  "fromTable": "FactCallCenter",
+  "fromColumn": "DateKey",
+  "toTable": "DimDate",
+  "toColumn": "DateKey"
+}

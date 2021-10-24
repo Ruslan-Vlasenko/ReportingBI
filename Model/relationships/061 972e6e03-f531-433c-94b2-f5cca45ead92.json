@@ -1,0 +1,7 @@
+{
+  "name": "972e6e03-f531-433c-94b2-f5cca45ead92",
+  "fromTable": "FactFinance",
+  "fromColumn": "ScenarioKey",
+  "toTable": "DimScenario",
+  "toColumn": "ScenarioKey"
+}

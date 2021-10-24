@@ -1,0 +1,14 @@
+{
+  "name": "DimProductSubcategory-d7557202-f612-434a-948c-c4434b9fedf8",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = Sql.Database(\"5CD110DG39\", \"AdventureWorksDW2019\"),",
+      "    dbo_DimProductSubcategory = Source{[Schema=\"dbo\",Item=\"DimProductSubcategory\"]}[Data]",
+      "in",
+      "    dbo_DimProductSubcategory"
+    ]
+  }
+}

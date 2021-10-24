@@ -1,0 +1,8 @@
+{
+  "name": "9ea6ff41-306a-440c-8a08-07509b344d5d",
+  "fromTable": "FactFinance",
+  "fromColumn": "Date",
+  "toTable": "LocalDateTable_174b1e75-938c-47b0-a440-d7d3e1e2c864",
+  "toColumn": "Date",
+  "joinOnDateBehavior": "datePartOnly"
+}

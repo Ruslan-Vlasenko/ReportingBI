@@ -1,0 +1,14 @@
+{
+  "name": "DimAccount-5ad8b8ff-7ac7-49ac-942c-c1365302730b",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = Sql.Database(\"5CD110DG39\", \"AdventureWorksDW2019\"),",
+      "    dbo_DimAccount = Source{[Schema=\"dbo\",Item=\"DimAccount\"]}[Data]",
+      "in",
+      "    dbo_DimAccount"
+    ]
+  }
+}

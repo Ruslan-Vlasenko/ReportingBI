@@ -1,0 +1,8 @@
+{
+  "name": "LocalDateTable_174b1e75-938c-47b0-a440-d7d3e1e2c864-6b657ba7-9df6-427c-8651-b4e3fccf3786",
+  "mode": "import",
+  "source": {
+    "type": "calculated",
+    "expression": "Calendar(Date(Year(MIN('FactFinance'[Date])), 1, 1), Date(Year(MAX('FactFinance'[Date])), 12, 31))"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "FactSurveyResponse-588b895b-e72d-4194-8212-721b1908a59b",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = Sql.Database(\"5CD110DG39\", \"AdventureWorksDW2019\"),",
+      "    dbo_FactSurveyResponse = Source{[Schema=\"dbo\",Item=\"FactSurveyResponse\"]}[Data]",
+      "in",
+      "    dbo_FactSurveyResponse"
+    ]
+  }
+}

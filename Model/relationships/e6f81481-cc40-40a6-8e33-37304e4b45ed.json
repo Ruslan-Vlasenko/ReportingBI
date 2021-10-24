@@ -1,7 +1,0 @@
-{
-  "name": "e6f81481-cc40-40a6-8e33-37304e4b45ed",
-  "fromTable": "DimOrganization",
-  "fromColumn": "CurrencyKey",
-  "toTable": "DimCurrency",
-  "toColumn": "CurrencyKey"
-}

@@ -1,0 +1,7 @@
+{
+  "name": "68287111-26f2-4a9b-9818-c9ac07691fcc",
+  "fromTable": "FactProductInventory",
+  "fromColumn": "ProductKey",
+  "toTable": "DimProduct",
+  "toColumn": "ProductKey"
+}

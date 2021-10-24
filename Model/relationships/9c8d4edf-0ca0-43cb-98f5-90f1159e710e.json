@@ -1,7 +1,0 @@
-{
-  "name": "9c8d4edf-0ca0-43cb-98f5-90f1159e710e",
-  "fromTable": "DimCustomer",
-  "fromColumn": "GeographyKey",
-  "toTable": "DimGeography",
-  "toColumn": "GeographyKey"
-}

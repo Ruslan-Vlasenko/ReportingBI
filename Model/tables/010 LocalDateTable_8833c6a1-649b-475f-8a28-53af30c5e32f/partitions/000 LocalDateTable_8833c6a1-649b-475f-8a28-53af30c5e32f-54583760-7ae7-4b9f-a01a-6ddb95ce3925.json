@@ -1,0 +1,8 @@
+{
+  "name": "LocalDateTable_8833c6a1-649b-475f-8a28-53af30c5e32f-54583760-7ae7-4b9f-a01a-6ddb95ce3925",
+  "mode": "import",
+  "source": {
+    "type": "calculated",
+    "expression": "Calendar(Date(Year(MIN('DimEmployee'[BirthDate])), 1, 1), Date(Year(MAX('DimEmployee'[BirthDate])), 12, 31))"
+  }
+}

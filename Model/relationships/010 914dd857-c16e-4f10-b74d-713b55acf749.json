@@ -1,0 +1,8 @@
+{
+  "name": "914dd857-c16e-4f10-b74d-713b55acf749",
+  "fromTable": "DimPromotion",
+  "fromColumn": "EndDate",
+  "toTable": "LocalDateTable_929a3908-b39b-4e7b-a741-18bd5f8e025b",
+  "toColumn": "Date",
+  "joinOnDateBehavior": "datePartOnly"
+}

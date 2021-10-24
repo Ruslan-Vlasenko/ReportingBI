@@ -1,0 +1,8 @@
+{
+  "name": "LocalDateTable_54e404fa-b3fd-45ea-bdc4-b64d9aaf7903-fecd4342-1311-49b7-b23e-3bf93ecc27f5",
+  "mode": "import",
+  "source": {
+    "type": "calculated",
+    "expression": "Calendar(Date(Year(MIN('FactSurveyResponse'[Date])), 1, 1), Date(Year(MAX('FactSurveyResponse'[Date])), 12, 31))"
+  }
+}

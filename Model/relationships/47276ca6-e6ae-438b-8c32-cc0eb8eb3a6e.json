@@ -1,8 +1,0 @@
-{
-  "name": "47276ca6-e6ae-438b-8c32-cc0eb8eb3a6e",
-  "fromTable": "FactResellerSales",
-  "fromColumn": "ShipDate",
-  "toTable": "LocalDateTable_62c9bda0-030b-4399-b410-89d155208c4c",
-  "toColumn": "Date",
-  "joinOnDateBehavior": "datePartOnly"
-}

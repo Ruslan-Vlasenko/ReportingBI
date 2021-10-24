@@ -1,0 +1,44 @@
+{
+  "name": "DateFirstPurchase",
+  "dataType": "dateTime",
+  "sourceColumn": "DateFirstPurchase",
+  "formatString": "Long Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "f8655d0e-49cd-4346-a5e6-4225d472d32d",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_43e291e2-455f-490f-826c-bb4d1f351c63",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    },
+    {
+      "name": "Format",
+      "value": "<Format Format=\"DateTimeGeneralPattern\"><DateTimes><DateTime LCID=\"1033\" Group=\"LongDate\" FormatString=\"D\" /></DateTimes></Format>"
+    },
+    {
+      "name": "DataTypeAtRefresh",
+      "value": "DateTime#####Date"
+    },
+    {
+      "name": "PBI_NameAtRefresh",
+      "value": "DateFirstPurchase"
+    },
+    {
+      "name": "PBI_WasHiddenAtRefresh",
+      "value": "False"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "DimReseller-c5fd940b-e0c2-4f20-a7d5-27c7f2c8ea43",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = Sql.Database(\"5CD110DG39\", \"AdventureWorksDW2019\"),",
+      "    dbo_DimReseller = Source{[Schema=\"dbo\",Item=\"DimReseller\"]}[Data]",
+      "in",
+      "    dbo_DimReseller"
+    ]
+  }
+}

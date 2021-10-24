@@ -1,0 +1,7 @@
+{
+  "name": "68daf7fb-5377-4fb1-ac45-9cfb30819acd",
+  "fromTable": "FactCurrencyRate",
+  "fromColumn": "CurrencyKey",
+  "toTable": "DimCurrency",
+  "toColumn": "CurrencyKey"
+}

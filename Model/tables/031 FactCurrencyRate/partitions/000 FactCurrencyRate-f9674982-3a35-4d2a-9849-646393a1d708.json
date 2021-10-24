@@ -1,0 +1,14 @@
+{
+  "name": "FactCurrencyRate-f9674982-3a35-4d2a-9849-646393a1d708",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = Sql.Database(\"5CD110DG39\", \"AdventureWorksDW2019\"),",
+      "    dbo_FactCurrencyRate = Source{[Schema=\"dbo\",Item=\"FactCurrencyRate\"]}[Data]",
+      "in",
+      "    dbo_FactCurrencyRate"
+    ]
+  }
+}

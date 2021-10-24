@@ -1,0 +1,12 @@
+{
+  "name": "FactProductInventory",
+  "annotations": [
+    {
+      "name": "PBI_DescriptionAtRefresh"
+    },
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    }
+  ]
+}

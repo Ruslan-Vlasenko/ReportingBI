@@ -1,0 +1,7 @@
+{
+  "name": "20dc1c6e-7ce6-4c5c-a304-4b1bff226293",
+  "fromTable": "DimProduct",
+  "fromColumn": "ProductSubcategoryKey",
+  "toTable": "DimProductSubcategory",
+  "toColumn": "ProductSubcategoryKey"
+}

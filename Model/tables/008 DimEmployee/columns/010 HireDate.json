@@ -1,0 +1,44 @@
+{
+  "name": "HireDate",
+  "dataType": "dateTime",
+  "sourceColumn": "HireDate",
+  "formatString": "Long Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "98e755fc-2878-452f-ae5e-d583621a9e76",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_2a5f372e-67cb-4b2b-ba96-49fd8c1f54c1",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    },
+    {
+      "name": "Format",
+      "value": "<Format Format=\"DateTimeGeneralPattern\"><DateTimes><DateTime LCID=\"1033\" Group=\"LongDate\" FormatString=\"D\" /></DateTimes></Format>"
+    },
+    {
+      "name": "DataTypeAtRefresh",
+      "value": "DateTime#####Date"
+    },
+    {
+      "name": "PBI_NameAtRefresh",
+      "value": "HireDate"
+    },
+    {
+      "name": "PBI_WasHiddenAtRefresh",
+      "value": "False"
+    }
+  ]
+}

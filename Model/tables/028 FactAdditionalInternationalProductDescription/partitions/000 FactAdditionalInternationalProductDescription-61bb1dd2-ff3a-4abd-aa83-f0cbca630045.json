@@ -1,0 +1,14 @@
+{
+  "name": "FactAdditionalInternationalProductDescription-61bb1dd2-ff3a-4abd-aa83-f0cbca630045",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = Sql.Database(\"5CD110DG39\", \"AdventureWorksDW2019\"),",
+      "    dbo_FactAdditionalInternationalProductDescription = Source{[Schema=\"dbo\",Item=\"FactAdditionalInternationalProductDescription\"]}[Data]",
+      "in",
+      "    dbo_FactAdditionalInternationalProductDescription"
+    ]
+  }
+}

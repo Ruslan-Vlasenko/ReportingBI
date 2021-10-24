@@ -1,0 +1,8 @@
+{
+  "name": "9c7d0ea8-1608-499e-a743-2614f0f5f038",
+  "fromTable": "FactInternetSales",
+  "fromColumn": "OrderDate",
+  "toTable": "LocalDateTable_082261b2-0dd5-4d55-9211-a70e248174d2",
+  "toColumn": "Date",
+  "joinOnDateBehavior": "datePartOnly"
+}

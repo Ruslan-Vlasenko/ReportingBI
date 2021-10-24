@@ -1,0 +1,44 @@
+{
+  "name": "MovementDate",
+  "dataType": "dateTime",
+  "sourceColumn": "MovementDate",
+  "formatString": "Long Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "0dd573f6-9f5f-4f26-965a-22e79852578f",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_179fd598-7d54-47f0-8c8e-7c1c3cb9e4b2",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    },
+    {
+      "name": "Format",
+      "value": "<Format Format=\"DateTimeGeneralPattern\"><DateTimes><DateTime LCID=\"1033\" Group=\"LongDate\" FormatString=\"D\" /></DateTimes></Format>"
+    },
+    {
+      "name": "DataTypeAtRefresh",
+      "value": "DateTime#####Date"
+    },
+    {
+      "name": "PBI_NameAtRefresh",
+      "value": "MovementDate"
+    },
+    {
+      "name": "PBI_WasHiddenAtRefresh",
+      "value": "False"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "DimGeography-c856e791-a73f-49a1-a4a8-e33a00d3505f",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = Sql.Database(\"5CD110DG39\", \"AdventureWorksDW2019\"),",
+      "    dbo_DimGeography = Source{[Schema=\"dbo\",Item=\"DimGeography\"]}[Data]",
+      "in",
+      "    dbo_DimGeography"
+    ]
+  }
+}

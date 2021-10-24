@@ -1,0 +1,7 @@
+{
+  "name": "0d554ccb-b17e-4bcf-b85d-34fcff599659",
+  "fromTable": "FactResellerSales",
+  "fromColumn": "DueDateKey",
+  "toTable": "DimDate",
+  "toColumn": "DateKey"
+}

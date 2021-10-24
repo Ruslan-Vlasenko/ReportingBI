@@ -1,0 +1,14 @@
+{
+  "name": "DimCustomer-c196ae7f-0d19-454b-ae28-ff078d90d8de",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = Sql.Database(\"5CD110DG39\", \"AdventureWorksDW2019\"),",
+      "    dbo_DimCustomer = Source{[Schema=\"dbo\",Item=\"DimCustomer\"]}[Data]",
+      "in",
+      "    dbo_DimCustomer"
+    ]
+  }
+}

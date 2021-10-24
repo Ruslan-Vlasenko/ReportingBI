@@ -1,0 +1,14 @@
+{
+  "name": "MeasureTable-e42fc438-e740-4197-940f-50832b94316c",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"i45WMlCKjQUA\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [Column1 = _t]),",
+      "    #\"Changed Type\" = Table.TransformColumnTypes(Source,{{\"Column1\", Int64.Type}})",
+      "in",
+      "    #\"Changed Type\""
+    ]
+  }
+}

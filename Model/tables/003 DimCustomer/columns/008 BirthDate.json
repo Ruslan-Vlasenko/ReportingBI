@@ -1,0 +1,44 @@
+{
+  "name": "BirthDate",
+  "dataType": "dateTime",
+  "sourceColumn": "BirthDate",
+  "formatString": "Long Date",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "2e4761ab-d089-499d-9b72-920b77f92df1",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_55702c50-84c9-45a5-8105-97b0e2a94f77",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "UnderlyingDateTimeDataType",
+      "value": "Date"
+    },
+    {
+      "name": "Format",
+      "value": "<Format Format=\"DateTimeGeneralPattern\"><DateTimes><DateTime LCID=\"1033\" Group=\"LongDate\" FormatString=\"D\" /></DateTimes></Format>"
+    },
+    {
+      "name": "DataTypeAtRefresh",
+      "value": "DateTime#####Date"
+    },
+    {
+      "name": "PBI_NameAtRefresh",
+      "value": "BirthDate"
+    },
+    {
+      "name": "PBI_WasHiddenAtRefresh",
+      "value": "False"
+    }
+  ]
+}

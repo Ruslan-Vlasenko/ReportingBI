@@ -1,0 +1,8 @@
+{
+  "name": "e2904d1b-62f7-4446-b874-a4f81f7c3355",
+  "fromTable": "DimProduct",
+  "fromColumn": "StartDate",
+  "toTable": "LocalDateTable_35e4cab3-98ca-449b-a176-4e8bb3277516",
+  "toColumn": "Date",
+  "joinOnDateBehavior": "datePartOnly"
+}

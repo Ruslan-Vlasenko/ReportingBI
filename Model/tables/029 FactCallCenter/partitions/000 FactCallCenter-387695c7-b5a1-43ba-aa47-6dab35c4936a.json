@@ -1,0 +1,14 @@
+{
+  "name": "FactCallCenter-387695c7-b5a1-43ba-aa47-6dab35c4936a",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = Sql.Database(\"5CD110DG39\", \"AdventureWorksDW2019\"),",
+      "    dbo_FactCallCenter = Source{[Schema=\"dbo\",Item=\"FactCallCenter\"]}[Data]",
+      "in",
+      "    dbo_FactCallCenter"
+    ]
+  }
+}

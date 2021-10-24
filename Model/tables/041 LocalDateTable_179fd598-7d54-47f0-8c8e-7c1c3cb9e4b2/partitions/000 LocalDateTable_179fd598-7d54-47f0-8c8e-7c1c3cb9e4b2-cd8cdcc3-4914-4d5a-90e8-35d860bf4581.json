@@ -1,0 +1,8 @@
+{
+  "name": "LocalDateTable_179fd598-7d54-47f0-8c8e-7c1c3cb9e4b2-cd8cdcc3-4914-4d5a-90e8-35d860bf4581",
+  "mode": "import",
+  "source": {
+    "type": "calculated",
+    "expression": "Calendar(Date(Year(MIN('FactProductInventory'[MovementDate])), 1, 1), Date(Year(MAX('FactProductInventory'[MovementDate])), 12, 31))"
+  }
+}

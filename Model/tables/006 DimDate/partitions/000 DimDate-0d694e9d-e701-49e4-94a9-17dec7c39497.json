@@ -1,0 +1,14 @@
+{
+  "name": "DimDate-0d694e9d-e701-49e4-94a9-17dec7c39497",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = Sql.Database(\"5CD110DG39\", \"AdventureWorksDW2019\"),",
+      "    dbo_DimDate = Source{[Schema=\"dbo\",Item=\"DimDate\"]}[Data]",
+      "in",
+      "    dbo_DimDate"
+    ]
+  }
+}
